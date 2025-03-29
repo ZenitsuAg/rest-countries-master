@@ -19,24 +19,22 @@ function useBorderNames(borderCodes) {
   if (data) {
     data.forEach(country => {
       borderNames[country.cca3] = country.name.common;
-      officialNames[country.cca3] = country.name?.official;
     });
   }
   
   return {
     borderNames,
-    officialNames,
     isLoading: shouldFetch && !error && !data,
     isError: error
   };
 }
 
 function BorderButtons({ borders }) {
-  const { borderNames, officialNames, isLoading } = useBorderNames(borders);
+  const { borderNames, isLoading } = useBorderNames(borders);
   
   return borders?.map(code => (
-    <button key={code} className='bg-white rounded border border-gray-100 shadow mb-24 py-2 px-6 hover:shadow-xl hover:shadow-gray-300 active:bg-gray-100'>
-        <NavLink to={`/country/${officialNames[code]}`}>
+    <button key={code} >
+        <NavLink to={`/${code}`} className='bg-white rounded border border-gray-100 shadow py-1 px-4 hover:shadow-lg hover:shadow-gray-300 active:bg-gray-100 dark:text-white dark:bg-d-dark-blue dark:border-slate-800 dark:hover:shadow-gray-900/60 dark:active:bg-gray-700'>
             {borderNames[code] || code}
         </NavLink>
     </button>
