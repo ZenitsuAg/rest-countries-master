@@ -1,9 +1,6 @@
 import { useParams } from "react-router";
 import useSWR from "swr";
-import BorderButtons from "../Components/BorderButtons";
 import Navbar from "../Components/Navbar"
-import leftArrow from "../../left-arrow-svgrepo-com.svg"
-import BackButton from "../Components/BackButton";
 import CountryDetail from "../Components/CountryDetail";
 import Loading from "../Components/Loading";
 import Unable from "../Components/Unable";
