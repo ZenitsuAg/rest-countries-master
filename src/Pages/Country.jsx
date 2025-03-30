@@ -33,7 +33,7 @@ export default function Country() {
     // returns an object 
 
     return (
-        <div className="min-h-[100vh] bg-l-light-gray">
+        <div className="min-h-[100vh] bg-l-light-gray dark:bg-d-very-dark-blue">
             <Navbar />
             {user.status == 404 ? <h1>The requested country doesn't exist :)</h1>
             :
