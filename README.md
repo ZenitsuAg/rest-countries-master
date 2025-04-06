@@ -17,8 +17,6 @@ This is a solution to the [REST Countries API with color theme switcher challeng
   - [Author](#author)
   - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -39,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [GitHub Pages](https://zenitsuag.github.io/rest-countries-master)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/rest-countries-master-with-react-and-tailwindcss-nAB9H4NVsG)
+- Live Site URL: [Vercel](https://rest-countries-master-six.vercel.app/)
 
 ## My process
 
@@ -56,6 +54,7 @@ Users should be able to:
 - [CSSFx](https://cssfx.netlify.app/) - CSS Effects
 - [React Router](https://reactrouter.com/)
 - [React Icons](https://react-icons.github.io/react-icons/)
+- [Swr](https://swr.vercel.app/)
 
 
 ### Continued development
