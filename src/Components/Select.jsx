@@ -1,7 +1,7 @@
 export default function Select({ onChange}) {
     return (
         <div className="lg:mr-14">
-            <select name="region" id="region" 
+            <select aria-label="region" id="region" 
                 onChange={onChange}
                 className="outline-none border border-gray-100 shadow rounded-lg cursor-pointer bg-white grid p-3 leading-tight mb-4 w-1/2 lg:max-w-40 lg:w-full dark:bg-d-dark-blue dark:border-slate-800"
             >
